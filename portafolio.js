@@ -1,20 +1,20 @@
 var trabajos = [{
-    figure: "media/BOQUILLAILKO.png",
+    figure: "media/boquillailko.png",
     alt: "Descripción de la imagen",
     title: "Título de primer trabajo",
     about: "Texto simulado de descripción de primer trabajo"
 }, {
-    figure: "media/trabajo-02-app.jpg",
+    figure: "media/capullotide.jpeg",
     alt: "Descripción de la imagen",
     title: "Título de segundo trabajo",
     about: "Texto simulado de descripción de segundo trabajo"
 }, {
-    figure: "media/trabajo-03-homy.jpg",
+    figure: "media/logocasareposo",
     alt: "Descripción de la imagen",
     title: "Título de tercer trabajo",
     about: "Texto simulado de descripción de tercer trabajo"
 }, {
-    figure: "media/trabajo-04-editorial.jpg",
+    figure: "media/exhibidorvino.jpeg",
     alt: "Descripción de la imagen",
     title: "Título de cuarto trabajo",
     about: "Texto simulado de descripción de cuarto trabajo"
