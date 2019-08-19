@@ -1,5 +1,5 @@
 var trabajos = [{
-    figure: "media/trabajo-01-desfile.jpg",
+    figure: "media/BOQUILLAILKO.png",
     alt: "Descripción de la imagen",
     title: "Título de primer trabajo",
     about: "Texto simulado de descripción de primer trabajo"
