@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Portafolio BCJ</title>
+    <link rel="icon" type="image/png" href="video/FAVICON.png" />
+    <!-- Metadatos genéricos -->
+    <meta name="Tres intentos de diseñadoras" content="Somos tres diseñadoras integrales con distintas perspectivas">
+    <meta name="image" content="video/imagenrepresentativaa.jpg">
+    <!-- Metadatos Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Tres intentos de diseñadoras">
+    <meta name="twitter:description" content="Somos tres diseñadoras integrales con distintas perspectivas">
+    <meta name="twitter:image:src" content="media/imagen.png">
+    <!-- Metadatos Open Graph (Facebook, Pinterest & LinkedIn) -->
+    <meta name="og:title" content="Tres intentos de diseñadoras">
+    <meta name="og:description" content="Somos tres diseñadoras integrales con distintas perspectivas">
+    <meta name="og:image" content="video/imagenrepresentativaa.jpg">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>TRES INTENTOS DE DISEÑADORAS</h1>
+        <h2>Diseño integral desde distintas perspectivas</h2>
+    </header>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="video/video github sin sonido (1).webm" type="video/webm">
+        <source src="video/video github sin sonido.mp4" type="video/mp4">
+    </video>
+    <main>
+        <section id="equipo">
+            <h3>Quiénes somos</h3>
+            <div class="integrante">
+                <h4>Bernardita Hoffann</h4>
+                <address><a href="bhoffmann@uc.cl">bhoffmann@uc.cl</a></address>
+                <blockquote>Less is more <cite>Meis van ser Rohe</cite></blockquote>
+            </div>
+            <div class="integrante">
+                <h4>Camila Osorio</h4>
+                <address><a href="mailto:caosorio6@uc.cl">caosorio6@uc.cl</a></address>
+                <blockquote>We want to make the best for the most for the least <cite>Charles and Ray Eames</cite></blockquote>
+            </div>
+            <div class="integrante">
+                <h4>Josefina Peirano</h4>
+                <address><a href="mailto:japeirano@uc.cl">japeirano@uc.cl</a></address>
+                <blockquote>Styles come and go. Good design is a language, not a style
+<cite>Massino Vignelli</cite></blockquote>
+            </div>
+        </section>
+        <section id="portafolio">
+            <h3>Nuestros trabajos</h3>
+            <!--acá se colocan y organizan las cosas con programación-->
+        </section>
+    </main>
+    <footer>
+        <p>Procesos de Producción · sección web · segundo semestre · 2019</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
