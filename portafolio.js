@@ -2,7 +2,7 @@ var trabajos = [{
     figure: "portafolio cami/arruca.png",
     alt: "arruca",
     title: "Arruca",
-    about: "Diseñado por las tres. Cuna armable de emergencia para situacion de emergencia en albergues",
+    about: "Diseñado por las tres. Cuna armable para situación de emergencia en albergues",
     url: "http://instagram.com/tres_intentos_de_disenadoras/"
 }, {
     figure: "portafolio cami/boquillailko.png",
@@ -74,7 +74,7 @@ var trabajos = [{
     figure: "portafolio berni/depoxer2.jpg",
     alt: "Depoxer",
     title: "Depoxer",
-    about: "Diseño por bernardita. Rieles para la práctica de boxeo para personas con parkinson",
+    about: "Diseño por Bernardita. Rieles para la práctica de boxeo para personas con parkinson",
     url: "http://instagram.com/tres_intentos_de_disenadoras/"
 }, {
     figure: "portafolio berni/fritangana1.jpg",
@@ -106,6 +106,6 @@ $.each(trabajos, function(i, val) {
     var uno = '<figure><img src="' + trabajos[i].figure + '" alt="' + trabajos[i].alt + '"/></figure>';
     var dos = '<h4>' + trabajos[i].title + '</h4>';
     var tres = '<p>' + trabajos[i].about + '</p>';
-    var cuatro = '<p><a href="' + trabajos[i].url + '"> Para Insta</a></p>';
+    var cuatro = '<p><a href="' + trabajos[i].url + '"> Ver más</a></p>';
     $('#portafolio').append('<div class="item">' + uno + dos + tres + cuatro +'</div>')
 });
